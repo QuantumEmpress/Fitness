@@ -1,327 +1,297 @@
-*
-{
-    padding: 0;
-    margin: o;
+* {
+  padding: 0;
+  margin: o;
 }
-body{
-    overflow-x: hidden;
+body {
+  overflow-x: hidden;
 }
-#header
-{
-    background-image: url(images/secpic.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
+#header {
+  background-image: url(images/secpic.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
-.navbar-nav li a
-{
- float: right;
- color: #d21919!important;
- font-family: cursive;
- font-size: small;
+.navbar-nav li a {
+  float: right;
+  color: #d21919 !important;
+  font-family: cursive;
+  font-size: small;
 }
-.navbar-brand img
-{
-    width: 130px;
-    margin-left: 30px;
+.navbar-brand img {
+  width: 130px;
+  margin-left: 30px;
 }
-.navbar-toggler
-{
-    border: none!important;
-    outline: none!important;
+.navbar-toggler {
+  border: none !important;
+  outline: none !important;
 }
-.welcome 
-{
-    padding: 50px 100px;
-    margin-top: -140px;
-    background-color: #fff;
-    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+.welcome {
+  padding: 50px 100px;
+  margin-top: -140px;
+  background-color: #fff;
+  box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
 }
-.welcome h1
-{
-    color: 333;
-    
+.welcome h1 {
+  color: 333;
 }
-.welcome .home-btn{
-    margin-top: 10px;
-    padding: 10px 30px;
-    border-radius: 30px;
-    color: #fff;
-    background-color: #017e07;
+.welcome .home-btn {
+  margin-top: 10px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  color: #fff;
+  background-color: #000000;
 }
-.welcome.btn:focus{
-    box-shadow: none;
+.welcome.btn:focus {
+  box-shadow: none;
 }
-#about{
-    padding-top: 100px;
-    padding-bottom: 100px;
+#about {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
-#about.col-md-6{
-    padding: 20px  10px;
+#about.col-md-6 {
+  padding: 20px 10px;
 }
-#about h3{
-    margin: 20px auto;
+#about h3 {
+  margin: 20px auto;
 }
-#Services
-{
-    background-color:#25c432 ;
-    padding-top: 80px;
-    padding-bottom: 80px;
+#Services {
+  background-color: #25c432;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
-#Services .col-md-4 
-{
-    padding: 20px;
+#Services .col-md-4 {
+  padding: 20px;
 }
 
-#Services .col-md-4 h4
-{
-    padding: 5px;
-
+#Services .col-md-4 h4 {
+  padding: 5px;
 }
-#Services .col-md-4 img
-{
-    width: 50px;
+#Services .col-md-4 img {
+  width: 50px;
 }
-Services .col-md-4 p
-{
-    padding: 5px;
-    text-align:justify;
+Services .col-md-4 p {
+  padding: 5px;
+  text-align: justify;
 }
 
-
-#features{
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/feature-background.jpg);
-    background-position:center ;
-    background-size: cover;
-    background-attachment: fixed;
-    color: #ffffff;
+#features {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(images/feature-background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff;
 }
-#features.col-md-6{
-    padding: 20px;
+#features.col-md-6 {
+  padding: 20px;
 }
-.feature-box{
-    height: 120px;
+.feature-box {
+  height: 120px;
 }
-.feature-box.feature-left
-{
-    height: 120px;
-    width: 20%;
-    float: left;
-}
-
-.feature-box.feature-right
-{
-    height: 120px;
-    width: 80%;
-    float: left;
-}
-.feature-box.feature-right h4
-{
-    padding-top: 10px;
-    padding-left: 15px;
-    text-align: left;
-}
-.feature-box.feature-right p
-{
-    padding-left:15px ;
-    text-align: left;
+.feature-box.feature-left {
+  height: 120px;
+  width: 20%;
+  float: left;
 }
 
-  
-#testimonials{
-    padding-top: 100px;
-    padding-bottom: 100px;
-    
+.feature-box.feature-right {
+  height: 120px;
+  width: 80%;
+  float: left;
 }
-#testimonials .col-md-4
-{
-    padding: 10px 30px;
+.feature-box.feature-right h4 {
+  padding-top: 10px;
+  padding-left: 15px;
+  text-align: left;
 }
-#testimonials img
-{
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    margin-left: -30px;
-    margin-top: -40px;
-    border: 5px solid #fff;
-    margin-bottom: 30px;
+.feature-box.feature-right p {
+  padding-left: 15px;
+  text-align: left;
 }
-.review{
-    font-size: 16px;
-    padding: 10px 10px 10px 30px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+
+#testimonials {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
-.review .bi-twitter{
-    color: #013f7e;
+#testimonials .col-md-4 {
+  padding: 10px 30px;
 }
-#testimonials span{
-    color: #013f7e;
-    font-weight: 600;
-    font-size: 18px;
+#testimonials img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-left: -30px;
+  margin-top: -40px;
+  border: 5px solid #fff;
+  margin-bottom: 30px;
 }
-#testimonials h1{
-    margin-bottom: 20px;
-    color: #013f7e;
+.review {
+  font-size: 16px;
+  padding: 10px 10px 10px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
 }
-#testimonials p{
-    padding-bottom: 20px;
+.review .bi-twitter {
+  color: #013f7e;
 }
-#testimonials .middle{
-    margin-bottom: -30px;
-    margin-top: -30px;
+#testimonials span {
+  color: #013f7e;
+  font-weight: 600;
+  font-size: 18px;
+}
+#testimonials h1 {
+  margin-bottom: 20px;
+  color: #013f7e;
+}
+#testimonials p {
+  padding-bottom: 20px;
+}
+#testimonials .middle {
+  margin-bottom: -30px;
+  margin-top: -30px;
 }
 
 /* ----------------------------------------------- */
-.subscribe{
-    padding: 50px 20px;
-    background-color: #013f7e;
-    position: relative;
-    box-shadow: 0 0 2px 7px rgba(0,0,0,0.2);
-    margin-bottom: -160px;
+.subscribe {
+  padding: 50px 20px;
+  background-color: #013f7e;
+  position: relative;
+  box-shadow: 0 0 2px 7px rgba(0, 0, 0, 0.2);
+  margin-bottom: -160px;
 }
-.subscribe h3 .subscribe p{
-    color:#fff
+.subscribe h3 .subscribe p {
+  color: #fff;
 }
-.subscribe .input-group{
-    border-radius: 30px;
-    background: #fff;
-    max-width: 500px;
-    margin: 10px auto;
-    padding: 5px;
+.subscribe .input-group {
+  border-radius: 30px;
+  background: #fff;
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 5px;
 }
-.subscribe .form-control{
+.subscribe .form-control {
   border: none;
   background: transparent;
 }
-.subscribe .form-control:focus{
-    box-shadow: none;
-    background: transparent;
-  }
-  .subscribe .input-group-append{
-    background-image: linear-gradient(to right,#1c03b5,#5c8bef);
-    border-radius: 30px;
-  }
-  .subscribe .input-group-text{
-   background: transparent;
-   border: none;
-   color: #fff;
-  }
-  .subscribe .btn:focus{
-    box-shadow: none;
-  } 
+.subscribe .form-control:focus {
+  box-shadow: none;
+  background: transparent;
+}
+.subscribe .input-group-append {
+  background-image: linear-gradient(to right, #1c03b5, #5c8bef);
+  border-radius: 30px;
+}
+.subscribe .input-group-text {
+  background: transparent;
+  border: none;
+  color: #fff;
+}
+.subscribe .btn:focus {
+  box-shadow: none;
+}
 
-  /* --------------- */
-  #footer{
-    margin-top: 80px;
-    padding: 100px;
-    background-color: #efefef;
-    color: #013f7e;
-  }
-  .footer-logo{
-    width: 150px;
-    margin-top: 25px;
-    margin-bottom: 15px;
-  }
- #footer h1{
-font-size:15px;
-text-align: left;
-margin-top: 25px;
-margin-bottom: 25px;
- }
- #footer p{
-    font-size:12px;
-    text-align: left;
-  
+/* --------------- */
+#footer {
+  margin-top: 80px;
+  padding: 100px;
+  background-color: #efefef;
+  color: #013f7e;
 }
-#footer .city{
- margin-left: 37px;
-      
+.footer-logo {
+  width: 150px;
+  margin-top: 25px;
+  margin-bottom: 15px;
 }
-#footer .row .bi{
-     padding-right: 20px;
-     font-size: 15px;
-          
-  }
-#footer hr{
-    margin-top: 10px;
-         
- }
-#footer .bi-heart{
-    font-size: 17px;
-    color: red;
-         
- }
- #footer .copyright{
-   margin-bottom: -80px;
-   text-align: center;
-   font-size: 30px;
- }
- /* modal-------------------------- */
- /* Modal Styles */
+#footer h1 {
+  font-size: 15px;
+  text-align: left;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+#footer p {
+  font-size: 12px;
+  text-align: left;
+}
+#footer .city {
+  margin-left: 37px;
+}
+#footer .row .bi {
+  padding-right: 20px;
+  font-size: 15px;
+}
+#footer hr {
+  margin-top: 10px;
+}
+#footer .bi-heart {
+  font-size: 17px;
+  color: red;
+}
+#footer .copyright {
+  margin-bottom: -80px;
+  text-align: center;
+  font-size: 30px;
+}
+/* modal-------------------------- */
+/* Modal Styles */
 .modal {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color:rgba(0, 0, 0, 0.7);
-    z-index: 999;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999;
 }
 
 .modal-content {
-    background-color:#013f7e;
-    border-radius: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  background-color: #013f7e;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 .close {
-    color: #fff;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 24px;
-    cursor: pointer;
-    background-color:#013f7e;
-    border: none;
-    border-radius: 50%;
-    width: 35px;
-    height: 35px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  background-color: #013f7e;
+  border: none;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .close:hover {
-    background-color: #ff4747; /* Darker color on hover for a professional touch */
+  background-color: #ff4747; /* Darker color on hover for a professional touch */
 }
 
 .modal-title {
-    font-size: 36px;
-    font-weight: bold;
-    margin-top: 0;
-    color: #fff;
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 0;
+  color: #fff;
 }
 
 .modal-text {
-    font-size: 18px;
-    margin: 20px 0;
-    color: #fff;
+  font-size: 18px;
+  margin: 20px 0;
+  color: #fff;
 }
-.close-modal{
-    color: #013f7e;
-    padding-left: 5px;
-
-
+.close-modal {
+  color: #013f7e;
+  padding-left: 5px;
 }
-
